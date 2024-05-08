@@ -7,7 +7,7 @@ class Register(models.Model):
     Password=models.IntegerField()
     City=models.CharField(max_length=150)
 
-    class meta:
+    class Meta:
         db_table='Register'
         verbose_name_plural='Register'
 
